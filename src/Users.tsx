@@ -6,9 +6,13 @@ import {
 } from "@tabler/icons-react";
 import Image from "../src/assets/SS.png";
 import Image2 from "../src/assets/SSM.png";
+import Image3 from "../src/assets/home.png"
+import Image4 from "../src/assets/image.png"
+import Image5 from "../src/assets/image5.png";
+
 const Info = {
-  stack: ["Frontend Developer", "UX/UI Designer", ""],
-  bio: " Student of Information Technology with a strong passion for frontend development and UI/UX design. With hands-on experience in creating responsive websites and applications using HTML, CSS, JavaScript, React, and Flutter, I am proficient in delivering user-friendly and visually appealing digital solutions.",
+  stack: ["Software Developer","Creative Full Stack Developer", "UI/UX Enthusiast"],
+  bio: "with a B.Tech in Information Technology from SGGSIE&T,Nanded. I enjoy crafting clean, responsive, and user-friendly web applications using React, JavaScript, and modern UI/UX principles. With hands-on experience in both frontend and backend development, I aim to build meaningful digital solutions that solve real-world problems and enhance user experience",
 };
 
 const SocialLinks = [
@@ -32,7 +36,7 @@ const ProjectInfo = [
     "desc": "Developed a responsive website using JavaScript and API integration for real-time movie information retrieval, implementing search functionality to quickly access detailed movie data, and designed a dynamic user interface to ensure better user engagement and experience.",
     "image": Image2,
     "live": true,
-    "technologies": ["JavaScript", "API"],
+    "technologies": ["JavaScript", "API","HTML", "CSS", "Responsive Design", "GitHub Pages"],
     "link": "https://aavdisd07.github.io/Movies-Mania-/",
     "github": "https://github.com/aavdisd07/Movies-Mania-"
 },
@@ -45,15 +49,35 @@ const ProjectInfo = [
     "link": "https://aavdisd07.github.io/FreshCart/",
     "github": "https://github.com/aavdisd07/FreshCart"
 },
-// {
-//     "title": "Shopping Store",
-//     "desc": "Designed and implemented a comprehensive shopping website, utilizing HTML, CSS, and JavaScript to create dynamic and interactive user experiences, and developed essential features such as product listings, a shopping cart, and a streamlined checkout process to enhance the online shopping experience.",
-//     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVdfWQ9o76_DVlHPlGdcI2QxCI8VDuZK6qCA&s",
-//     "live": true,
-//     "technologies": ["HTML", "CSS", "JavaScript"],
-//     "link": "https://google.com",
-//     "github": "https://github/aavdisd07.com"
-// }
+{
+    "title": "SkyStore",
+    "desc": "SkyStore is a secure cloud-based file storage application built with Node.js, Express, MongoDB, and Cloudinary. It allows users to upload, manage, and download files efficiently.",
+    "image": Image3,
+    "live": true,
+    "technologies": [
+      "Express.js", "MongoDB", "Node.js", "Cloudinary", "JWT Authentication","bcrypt.js"
+    ],
+    "link": "https://skystore-t48b.onrender.com/user/signup",
+    "github": "https://github.com/aavdisd07/SKYSTORE"
+},
+{
+    "title": "SecondBrain",
+    "desc": "A full-stack web application designed to streamline content organization by allowing users to save, categorize, and share links from platforms like YouTube, Instagram, LinkedIn, and Twitter. The app enhances content accessibility and organization by 80% through intuitive categorization and sharing features. Secure authentication is implemented using JWT and bcrypt, ensuring 100% encrypted password protection. Shareable link generation boosts user engagement by 40%, making it easier to distribute curated content across platforms.",
+    "image": Image4,
+    "live": true,
+    "technologies": ["React.js", "TypeScript","Node.js", "Express.js", "MongoDB", "JWT", "bcrypt", "Zod", "Tailwind CSS"],
+    "link": "https://second-brain-llb9.vercel.app/",
+    "github": "https://github.com/aavdisd07/SecondBrain"
+},
+{
+    "title": "Evently",
+    "desc": "A scalable full-stack web application built with modern architecture, offering seamless event creation, discovery, and management. Integrated Clerk for secure and efficient user authentication, supporting full CRUD operations for events with dynamic control over titles, dates, locations, and more.✨ Key Features:Event CRUD: Create, read, update, and delete events with an intuitive interface.Related & Organized Events: Display of related events and user-created event tracking via profile pages.Advanced Search & Filter: Quickly locate events through a robust search and category-based filtering system.Category Management: Dynamically add and manage event categories for flexibility and scalability.Stripe Payments: Secure checkout system with Stripe for smooth transactions.Order Management: Track event orders and use search functionality for efficient order monitoring.Designed with clean code architecture and reusable components to ensure maintainability and scalability, this project delivers a professional-grade event experience for both users and administrators.",
+    "image": Image5,
+    "live": true,
+    "technologies": ["Next.js 14","TypeScript","Tailwind CSS","Clerk","Prisma","MongoDB","Stripe","Zod","React Hook Form","Shadcn UI","Vercel"],
+    "link": "https://evently2-0.vercel.app/",
+    "github": "https://github.com/aavdisd07/Evently2.0"
+},
 
 ];
 
