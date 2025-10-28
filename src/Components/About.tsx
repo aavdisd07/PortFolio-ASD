@@ -1,6 +1,6 @@
 import Typewriter from "typewriter-effect";
 import { Info } from "../Users";
-import myImage from "../assets/myimg.jpeg";
+import myImage from "../assets/myimg.jpg";
 import { useMatches } from "@mantine/core";
 //@ts-ignore
 import Halo from "vanta/src/vanta.halo";
