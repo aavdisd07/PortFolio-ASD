@@ -11,7 +11,7 @@ import Image4 from "../src/assets/image.png"
 import Image5 from "../src/assets/image5.png";
 
 const Info = {
-  stack: ["Software Developer","Creative Full Stack Developer", "UI/UX Enthusiast"],
+  stack: ["Software Developer","Full Stack Developer", "UI/UX Enthusiast"],
   bio: "with a B.Tech in Information Technology from SGGSIE&T,Nanded. I enjoy crafting clean, responsive, and user-friendly web applications using React, JavaScript, and modern UI/UX principles. With hands-on experience in both frontend and backend development, I aim to build meaningful digital solutions that solve real-world problems and enhance user experience",
 };
 
